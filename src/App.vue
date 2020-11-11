@@ -8,6 +8,7 @@
 <script>
 import Search from "./components/Search";
 import GifList from "./components/GifList";
+
 export default {
   name: "App",
   components: {
@@ -35,6 +36,3 @@ export default {
   }
 };
 </script>
-  console.log(vue.version)
-<style>
-</style>
