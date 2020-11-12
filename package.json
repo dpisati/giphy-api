@@ -2,13 +2,14 @@
   "name": "giphy-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dpisati.github.io/giphy-api/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "publish": "npm run build && rm -rf docs; cp -r dist docs && sed -i -e 's/src=\\//src=/g' docs/index.html ; sed -i -e 's/href=\\//href=/g' docs/index.html"
   },
+  "homepage": "https://dpisati.github.io/giphy-api/",
   "dependencies": {
     "core-js": "^3.6.5",
     "gh-pages": "^3.1.0",
