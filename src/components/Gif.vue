@@ -74,7 +74,6 @@ export default {
   border-radius: 18px;
 }
 
-
 .copied {
   transition: 1s;
   background-color: rgba(48, 48, 48, 0.9);
