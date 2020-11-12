@@ -53,9 +53,13 @@ export default {
   height: 240px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 12px;
+  border-radius: 18px;
+  transition: 0.2s;
 }
 .gif:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 #lottie{
   height: 240px;
@@ -67,7 +71,10 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 18px;
 }
+
+
 .copied {
   transition: 1s;
   background-color: rgba(48, 48, 48, 0.9);
@@ -80,7 +87,4 @@ h3 {
   transition: color 10s;  
 }
 
-input {
-  /* display: none; */
-}
 </style>
