@@ -8,7 +8,7 @@
       @input="onInput"
       v-model="keyword"
     />
-    <img class="icon" src="../../public/search.png" alt="search" width="28" height="28">
+    <img class="icon" src="../../public/search.png" alt="search" >
     </div>
   </div>
 </template>
@@ -98,6 +98,8 @@ input:focus {
   right: 28px;
   bottom: 45px;
   background-color: white;
+  width: 28px;
+  height: 28px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,8 +116,14 @@ input:focus {
     margin-bottom: 10px;
   }
   .icon {
-    bottom: 28px;
+    bottom: 30px;
+    width: 22px;
+    height: 22px;
   }
+  input::placeholder {
+  font-size: 16px;
+  transform:translate3d(0,-2px,0)
+}
 }
 </style>
 
