@@ -36,6 +36,7 @@ export default {
   methods: {
     onFetch(result) {
       this.gifs = result;
+      window.scrollTo(0,0);
     },
     searchWord(word) {
       this.keyword = word;
@@ -51,6 +52,7 @@ export default {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
+  scroll-behavior: smooth;
 
 }
 body {
