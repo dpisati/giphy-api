@@ -114,6 +114,7 @@ input:focus {
   input {
     margin-top: 20px;
     margin-bottom: 10px;
+    padding-left: 26px;
   }
   .icon {
     bottom: 30px;
@@ -122,7 +123,7 @@ input:focus {
   }
   input::placeholder {
   font-size: 16px;
-  transform:translate3d(0,-2px,0)
+  transform:translate3d(0,-1px,0)
 }
 }
 </style>
