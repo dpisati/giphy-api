@@ -59,8 +59,11 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 28px 0;  
-  
+  margin: 28px 0;   
+}
+
+.search img {
+  margin-top: 20px;
 }
 
 input {
@@ -95,6 +98,24 @@ input:focus {
   right: 28px;
   bottom: 45px;
   background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .search {
+    margin: 10px 0;
+  }
+  .search-group{
+  width: 80%;
+  display: flex;
+  position: relative;
+  }
+  input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .icon {
+    bottom: 28px;
+  }
 }
 </style>
 

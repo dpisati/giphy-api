@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist",
-    "deploy-gh": "sh deploy.sh"
+    "deploy-gh": "deploy.sh"
     
   },
   "homepage": "https://dpisati.github.io/giphy-api/",

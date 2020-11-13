@@ -23,5 +23,6 @@ export default {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin-top: 24px;
 }
 </style>
