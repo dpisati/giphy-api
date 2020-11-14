@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img src="./.github/header.jpg" alt="Giphy" />
+    <img src="./.github/giphy-header.png" alt="Giphy" />
     <br><br>
     <b>Giphy, find your favorite GIF.</b>  
     <br>
